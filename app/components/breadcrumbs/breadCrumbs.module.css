@@ -1,0 +1,22 @@
+.breadCrumb {
+  list-style-type: none;
+}
+.breadCrumb li {
+  display: inline-block;
+  width: fit-content;
+}
+.breadCrumb a {
+  color: black;
+}
+.pipe {
+  padding: 0px 20px;
+}
+
+@media (max-width: 760px) {
+  .breadCrumb li {
+    display: block;
+  }
+  .pipe {
+    display: none;
+  }
+}
