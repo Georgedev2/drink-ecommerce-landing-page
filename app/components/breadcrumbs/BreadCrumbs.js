@@ -1,4 +1,4 @@
-import styles from "./breadcrumbs.module.css"
+import styles from "./breadCrumbs.module.css"
 
 const BreadCrumbs = ({breadcrumbData,breadCrumbPipe}) => {
   return (
