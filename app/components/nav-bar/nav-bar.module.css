@@ -1,0 +1,133 @@
+.header {
+  --header-height: 70px;
+  width: 100%;
+  z-index: var(--zIndex1);
+  border-bottom: 1px solid #e8e8e8;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: hsla(0 0% 0% / 0.1) 0 0.5rem 1rem;
+}
+
+.header > :only-child {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+.logoBox img {
+  cursor: pointer;
+}
+.logoBox a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.logoBox a:hover {
+  color: teal;
+}
+.header ul {
+  list-style: none;
+}
+.header li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.headerLeftMenu {
+  display: flex;
+  align-items: center;
+}
+
+.headerLeftMenu img {
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.headerLeftMenu > div:first-child {
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.headerLeftMenu > div:first-child img {
+  width: 35px;
+  height: 35px;
+}
+.headerLeftMenu > div:first-child :hover {
+  color: teal;
+}
+
+.headerLeftMenu > button:nth-child(2) {
+  margin-right: 15px;
+}
+
+.headerLeftMenu > button:nth-child(3) {
+  background-color: black !important;
+  border: none;
+  color: white;
+}
+.headerLeftMenu > button:nth-child(3):hover {
+  opacity: 0.7;
+}
+.margin-right:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.hamburgerMenu {
+  display: none;
+}
+.verticalHeaderLeftMenu{
+    display: none;
+}
+@media (max-width: 760px) {
+  .horizontalHeaderLeftMenu,
+  .navLinks {
+    display: none 
+  }
+
+  .hamburgerMenu,
+  .verticalHeaderLeftMenu {
+    display: block;
+  }
+
+  .navLinks {
+    position: fixed;
+    z-index: 10;
+    top: var(--header-height);
+    right: 0;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    transform: translateX(100%);
+    transition: 0.25s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+  }
+  .navLinks li {
+    height: 100%;
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    height: fit-content;
+    padding: 15px;
+  }
+
+  .navbarMenuActive {
+    border-bottom: 0;
+  }
+
+  .navbarMenuActive {
+    transform: translateX(29%);
+  }
+}

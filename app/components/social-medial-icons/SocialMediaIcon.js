@@ -1,14 +1,7 @@
 import Image from 'next/image';
-import React from 'react';
 
 const SocialMediaIcon = (props) => {
   const { data } = props;
-  console.log(data);
-  const imgSize = {
-    marginRight: '10px',
-    cursor: 'pointer',
-  };
-
   return (
     <div>
       <a href={data.link}>
@@ -17,7 +10,7 @@ const SocialMediaIcon = (props) => {
           height={35}
           src={data.linkImage}
           alt={data.imageName}
-          style={imgSize}
+          style={{ marginRight: '10px', cursor: 'pointer' }}
         />
       </a>
     </div>

@@ -1,5 +1,5 @@
 import './globals.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/nav-bar/NavBar';
 import Footer from './components/footer/Footer';
 
 export const metadata = {
@@ -10,9 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <NavBar/> */}
-      <body>{children}</body>
-      {/* <Footer/> */}
+      <body>
+        <NavBar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

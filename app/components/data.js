@@ -5,34 +5,38 @@ export const navLinks = [
 ];
 
 export const aboutUs = [
-  { title: 'Our Company', link: '#s' },
-  { title: 'Stories and News', link: '#q' },
-  { title: 'Starbucks Archive', link: '#l' },
-  { title: 'Investor Relations', link: '#c' },
-  { title: 'Customer Service', link: '#k' },
+  { title: 'Our Company', link: '#s', isExpanded: true },
+  { title: 'Stories and News', link: '#q', isExpanded: true },
+  { title: 'Starbucks Archive', link: '#l', isExpanded: true },
+  { title: 'Investor Relations', link: '#c', isExpanded: true },
+  { title: 'Customer Service', link: '#k', isExpanded: true },
 ];
 
 export const careers = [
-  { title: 'Culture and Values', link: '#h' },
-  { title: 'College Achievement Plan', link: '#r' },
-  { title: 'Alumni Community', link: '#h' },
-  { title: 'U.S. Careers', link: '#t' },
-  { title: 'International Careers', link: '#u' },
+  { title: 'Culture and Values', link: '#h', isExpanded: true },
+  { title: 'College Achievement Plan', link: '#r', isExpanded: true },
+  { title: 'Alumni Community', link: '#h', isExpanded: true },
+  { title: 'U.S. Careers', link: '#t', isExpanded: true },
+  { title: 'International Careers', link: '#u', isExpanded: true },
 ];
 
 export const socialImpact = [
-  { title: 'People', link: '#q' },
-  { title: 'Planet', link: '#i' },
-  { title: 'Environmental and Social Impact Reporting', link: '#t' },
+  { title: 'People', link: '#q', isExpanded: true },
+  { title: 'Planet', link: '#i', isExpanded: true },
+  {
+    title: 'Environmental and Social Impact Reporting',
+    link: '#t',
+    isExpanded: true,
+  },
 ];
 
 export const orderAndPickUp = [
-  { title: 'Order and Pick Up', link: '#v' },
-  { title: 'Order on the App', link: '#a' },
-  { title: 'Order on the Web', link: '#i' },
-  { title: 'Delivery', link: '#g' },
-  { title: 'Order and Pick Up Options', link: '#l' },
-  { title: 'Explore and Find Coffee for Home', link: '#z' },
+  { title: 'Order and Pick Up', link: '#v', isExpanded: true },
+  { title: 'Order on the App', link: '#a', isExpanded: true },
+  { title: 'Order on the Web', link: '#i', isExpanded: true },
+  { title: 'Delivery', link: '#g', isExpanded: true },
+  { title: 'Order and Pick Up Options', link: '#l', isExpanded: true },
+  { title: 'Explore and Find Coffee for Home', link: '#z', isExpanded: true },
 ];
 
 export const forBusinessPartners = [
@@ -43,11 +47,16 @@ export const forBusinessPartners = [
 ];
 
 export const breadcrumbData = [
-  { title: 'Privacy Notice', link: '#vb', id: 0 },
-  { title: 'Terms of Use', link: '#vz', id: 1 },
-  { title: 'Do Not Share My Personal Information', link: '#vs', id: 2 },
-  { title: 'CA Supply Chain Act', link: '#vd', id: 3 },
-  { title: 'Cookie Preferences', link: '#vb', id: 4 },
+  { title: 'Privacy Notice', link: '#vb', id: 0, isExpanded: true },
+  { title: 'Terms of Use', link: '#vz', id: 1, isExpanded: true },
+  {
+    title: 'Do Not Share My Personal Information',
+    link: '#vs',
+    id: 2,
+    isExpanded: true,
+  },
+  { title: 'CA Supply Chain Act', link: '#vd', id: 3, isExpanded: true },
+  { title: 'Cookie Preferences', link: '#vb', id: 4, isExpanded: true },
 ];
 
 export const socialMedialDetails = [
@@ -76,3 +85,5 @@ export const socialMedialDetails = [
     imageName: 'twitterIcon',
   },
 ];
+
+

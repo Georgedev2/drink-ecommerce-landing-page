@@ -1,7 +1,7 @@
 export const lang = {
-  fineAStore: 'Fine a store',
+  fineAStore: 'Find a store',
   signIn: 'Sign in',
-  join: 'John now',
+  join: 'Join now',
   aboutUs: 'About Us',
   careers: 'Careers',
   socialImpact: 'Social Impact',
@@ -18,8 +18,70 @@ export const lang = {
   discounts. Offer not available through Starbucks® Delivers on Uber
   Eats or DoorDash.`,
 
-  preFooterText2: ` **After your two-month free trial, exclusive to Starbucks® Rewards
-  members, the subscription renews automatically at $69.99 USD for an
-  annual subscription to Head space. You can cancel at any time. This
-  offer is for new and returning Head space users only.`,
+  preFooterText2: `**Impossible is a trademark of Impossible Foods Inc. Used under license.`,
+
+  bannerData: [
+    {
+      id: 1,
+      title: 'Tropical cool down',
+      displayImgFirst: false,
+      desc: 'Kick back with our vibrant new Frozen Pineapple Passion fruit Lemonade Starbucks Refreshers® beverage.',
+      bannerImg:
+        'https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84927.jpg',
+      link: {
+        linkText: 'Order now',
+        link: '',
+      },
+    },
+    {
+      id: 2,
+      title: 'Now 50% off cold drinks',
+      displayImgFirst: true,
+      desc: 'WinsDays just got even cooler for Starbucks® Rewards members. Now enjoy 50% off a cold drink on Wednesdays after 12 p.m.* ',
+      bannerImg:
+        '	https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84954.jpg',
+      link: {
+        linkText: 'Join for free',
+        link: '',
+      },
+    },
+    {
+      id: 3,
+      title: 'Summer to the max',
+      displayImgFirst: false,
+      desc: ' Go for a Mocha Cookie Crumble or Caramel Ribbon Crunch Frappuccino® blended beverage.',
+      bannerImg:
+        '	https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84930.jpg',
+      link: {
+        linkText: 'Join for free',
+        link: '',
+      },
+    },
+    {
+      id: 4,
+      title: 'Follow the buzz',
+      displayImgFirst: true,
+      desc: ' This adorable Bumblebee Cake Pop dipped in chocolatey icing has landed.',
+      bannerImg:
+        '	https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84933.jpg',
+      link: {
+        linkText: 'Order now',
+        link: '',
+      },
+    },
+    {
+      id: 5,
+      title: 'Be kind to your mind',
+      displayImgFirst: false,
+      desc: ` We teamed up with Head space to bring you four free meditations on
+      kindness, plus a special offer for Starbucks® Rewards members—discover
+      more mindfulness with a two-month free membership.**`,
+      bannerImg:
+        'https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84617.jpg',
+      link: {
+        linkText: 'Listen now',
+        link: '',
+      },
+    },
+  ],
 };
